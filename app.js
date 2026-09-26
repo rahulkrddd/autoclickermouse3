@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express=require('express'),session=require('express-session'),axios=require('axios'),crypto=require('crypto'),path=require('path'),fs=require('fs'),Razorpay=require('razorpay');
-req.session.isAuthenticated = true
+app.set('trust proxy', 1);
 const app=express(),ROOT=__dirname,PORT=process.env.PORT||3000;
 const rawBody=express.raw({type:'application/json'});app.post('/webhooks/razorpay',rawBody,webhook);app.use(express.json({limit:'1mb'}));app.use(session({secret:process.env.SESSIONKEY||'dev-change-me',resave:false,saveUninitialized:false,cookie:{httpOnly:true,sameSite:'lax',secure:process.env.NODE_ENV==='production',maxAge:8*3600000}}));app.use(express.static(path.join(ROOT,'public')));
 const c={repo:process.env.GITHUB_REPO,branch:process.env.GITHUB_BRANCH||'main',token:process.env.GITHUB_TOKEN,products:process.env.PRODUCTS_FILE||'data/products.json',orders:process.env.ORDERS_FILE||'data/orders.json',coupons:process.env.COUPONS_FILE||'data/coupons.json',events:process.env.EVENTS_FILE||'data/events.json'};
