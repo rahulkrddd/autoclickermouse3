@@ -208,7 +208,23 @@ html,body{max-width:100%;overflow-x:hidden}.nav{min-height:72px}.navlinks{margin
 
 }
 
-@media(max-width:700px){.nav{padding:9px 11px;gap:8px}.brand{font-size:1.08rem}.navlinks{width:auto;margin-left:auto;display:flex;justify-content:flex-end;gap:6px}.navlinks a,.navlinks button{padding:7px 10px;font-size:.72rem}.search{order:3;width:100%;flex-basis:100%}.hero{padding:36px 16px}.shell{padding:18px 9px}.grid{gap:8px}.card img{height:132px}.pad{padding:9px}.product-card h3{font-size:.86rem;min-height:2.35em}.card-description{-webkit-line-clamp:2;min-height:2.7em;font-size:.75rem}.price{font-size:1.14rem}.product-actions{gap:5px;padding:9px}.cart-action,.buy-action{height:40px;font-size:.72rem;padding:0 4px}.cart-action .cart-icon{display:inline}.shop-toast{left:10px;right:10px;bottom:12px}.modal{align-items:flex-end;padding:0}.panel{width:100%;max-height:94dvh;border-radius:20px 20px 0 0;padding:19px 14px}.product{padding:11px;gap:15px}.product .heroimg{height:min(82vw,340px)}.info-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.buyer-welcome{padding:18px 15px}.buyer-welcome h1{font-size:1.38rem;line-height:1.08}.buyer-welcome p{font-size:.86rem}.order-heading{flex-direction:column}.product-summary{align-items:flex-start;flex-direction:column}.order{padding:14px}.nav:has(#prev) .navlinks{margin-left:auto;width:auto;justify-content:flex-end}.nav:has(#prev) .navlinks button{min-width:68px}.footer{padding:24px 12px;text-align:center;line-height:1.5}body:has(#reviews) .grid{grid-template-columns:1fr!important}#reviews{width:100%;max-width:100%}#reviews .review{width:100%;padding:15px}#reviews .ratingline{grid-template-columns:86px minmax(0,1fr);gap:4px}#reviews .stars{font-size:17px;letter-spacing:-1px}.toolbar{display:grid;grid-template-columns:1fr 1fr;width:100%;gap:9px}.toolbar input,.toolbar select{width:100%;min-width:0}.cartrow{grid-template-columns:62px minmax(0,1fr);gap:10px}.cartrow>button{grid-column:2;width:max-content}}
+@media(max-width:700px){
+
+
+    .navlinks{
+        width:100%;
+        justify-content:center;
+        gap:8px;
+        margin-bottom:2px;   /* <-- important */
+    }
+
+    .search{
+        margin-top:2px;      /* <-- important */
+    }
+
+
+    
+    .hero{padding:36px 16px}.shell{padding:18px 9px}.grid{gap:8px}.card img{height:132px}.pad{padding:9px}.product-card h3{font-size:.86rem;min-height:2.35em}.card-description{-webkit-line-clamp:2;min-height:2.7em;font-size:.75rem}.price{font-size:1.14rem}.product-actions{gap:5px;padding:9px}.cart-action,.buy-action{height:40px;font-size:.72rem;padding:0 4px}.cart-action .cart-icon{display:inline}.shop-toast{left:10px;right:10px;bottom:12px}.modal{align-items:flex-end;padding:0}.panel{width:100%;max-height:94dvh;border-radius:20px 20px 0 0;padding:19px 14px}.product{padding:11px;gap:15px}.product .heroimg{height:min(82vw,340px)}.info-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.buyer-welcome{padding:18px 15px}.buyer-welcome h1{font-size:1.38rem;line-height:1.08}.buyer-welcome p{font-size:.86rem}.order-heading{flex-direction:column}.product-summary{align-items:flex-start;flex-direction:column}.order{padding:14px}.nav:has(#prev) .navlinks{margin-left:auto;width:auto;justify-content:flex-end}.nav:has(#prev) .navlinks button{min-width:68px}.footer{padding:24px 12px;text-align:center;line-height:1.5}body:has(#reviews) .grid{grid-template-columns:1fr!important}#reviews{width:100%;max-width:100%}#reviews .review{width:100%;padding:15px}#reviews .ratingline{grid-template-columns:86px minmax(0,1fr);gap:4px}#reviews .stars{font-size:17px;letter-spacing:-1px}.toolbar{display:grid;grid-template-columns:1fr 1fr;width:100%;gap:9px}.toolbar input,.toolbar select{width:100%;min-width:0}.cartrow{grid-template-columns:62px minmax(0,1fr);gap:10px}.cartrow>button{grid-column:2;width:max-content}}
 @media(max-width:360px){.cart-action,.buy-action{font-size:.68rem}.grid{gap:6px}.pad{padding:8px}.info-grid{grid-template-columns:1fr}.navlinks a,.navlinks button{padding:7px 8px}}
 
 /* =========================================================
@@ -244,13 +260,24 @@ html,body{max-width:100%;overflow-x:hidden}.nav{min-height:72px}.navlinks{margin
 .nav .navlinks button#adminBtn:hover,
 .nav .navlinks button#ordersBtn:hover,
 .nav .navlinks button#adminBtn:focus-visible,
-.nav .navlinks button#ordersBtn:focus-visible {
+.nav .navlinks button#ordersBtn:focus-visible{
     background: transparent !important;
     color: inherit !important;
-    opacity: 0.9;
+    opacity: .9;
     text-decoration: underline;
     text-underline-offset: 3px;
 }
+
+/* Reviews / FAQs / Cart */
+
+.navlinks a:hover,
+.navlinks a:focus-visible{
+    opacity:.9;
+    text-decoration:underline;
+    text-underline-offset:3px;
+}
+
+
 
 /* =========================================================
    MOBILE WISHLIST FILTER
@@ -548,3 +575,214 @@ body:has(#reviews) .toolbar{
     }
 }
 
+/* =====================================
+   MY ORDERS HEADER ONLY
+   No impact on homepage
+   ===================================== */
+
+body:has(#prev) .navlinks{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:flex-end !important;
+    gap:12px !important;
+}
+
+body:has(#prev) .navlinks button{
+    width:130px;
+    height:48px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+    border-radius:999px;
+    font-weight:800;
+}
+
+/* logout same size */
+body:has(#prev) #logout{
+    width:130px;
+}
+
+/* =====================================
+   MY ORDERS APP STYLE MOBILE HEADER
+   PREMIUM VERSION
+   ===================================== */
+
+@media (max-width:700px){
+
+body:has(#prev) .nav{
+
+    position:sticky;
+    top:0;
+    z-index:50;
+
+    display:grid !important;
+
+    grid-template-columns:1fr auto;
+
+    grid-template-areas:
+        "brand logout"
+        "controls controls";
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:10px 12px;
+
+    background:linear-gradient(
+        135deg,
+        #131921,
+        #1b2b42
+    );
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+}
+
+/* Logo */
+
+body:has(#prev) .brand{
+
+    grid-area:brand;
+
+    font-size:1.3rem;
+
+    font-weight:900;
+
+    margin:0;
+
+    letter-spacing:-.5px;
+}
+
+/* Controls Container */
+
+body:has(#prev) .navlinks{
+
+    grid-area:controls;
+
+    display:flex !important;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:8px;
+
+    width:100%;
+
+    margin:0 !important;
+}
+
+/* ===================================
+   SAME SIZE FOR ALL BUTTONS
+   =================================== */
+
+body:has(#prev) #prev,
+body:has(#prev) #next,
+body:has(#prev) #logout{
+
+    width:86px !important;
+
+    min-width:86px !important;
+
+    max-width:86px !important;
+
+    height:34px !important;
+
+    padding:0 !important;
+
+    border-radius:999px;
+
+    font-size:.72rem;
+
+    font-weight:800;
+
+    display:flex !important;
+
+    align-items:center;
+
+    justify-content:center;
+
+    box-sizing:border-box;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease,
+        background .2s ease;
+}
+
+/* Prev + Next */
+
+body:has(#prev) #prev,
+body:has(#prev) #next{
+
+    background:#22324b;
+
+    color:#fff;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        0 2px 8px rgba(0,0,0,.18);
+}
+
+/* Logout */
+
+body:has(#prev) #logout{
+
+    grid-area:logout;
+
+    background:#dc2626;
+
+    color:#fff;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    box-shadow:
+        0 2px 8px rgba(220,38,38,.25);
+}
+
+/* Hover */
+
+body:has(#prev) #prev:hover,
+body:has(#prev) #next:hover{
+
+    background:#2d4364;
+
+    transform:translateY(-1px);
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,.25);
+}
+
+body:has(#prev) #logout:hover{
+
+    background:#ef4444;
+
+    transform:translateY(-1px);
+
+    box-shadow:
+        0 6px 18px rgba(220,38,38,.35);
+}
+
+/* Touch */
+
+body:has(#prev) #prev:active,
+body:has(#prev) #next:active,
+body:has(#prev) #logout:active{
+
+    transform:scale(.96);
+}
+
+/* First Order */
+
+body:has(#prev) #prev[style*="hidden"]{
+
+    visibility:hidden;
+
+    opacity:0;
+}
+
+}
