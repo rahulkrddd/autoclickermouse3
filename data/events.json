@@ -350,9 +350,9 @@
     "reason": ""
   },
   {
-    "id": "36e2da00-a526-4cbe-95b9-0981f652d413",
-    "type": "wishlist_add",
-    "at": "2026-09-26T20:37:22.499Z",
+    "id": "b317eb85-a1fb-4814-9c96-9c0081a9cd65",
+    "type": "wishlist_remove",
+    "at": "2026-09-26T20:37:22.925Z",
     "session": "MhGgBfN6_Nr6MZnY4N1p8UW_GwS200FG",
     "productId": "jiggler-mini",
     "name": "",
