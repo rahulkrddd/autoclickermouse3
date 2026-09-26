@@ -31,5 +31,16 @@
     "mobile": "",
     "orderId": "",
     "reason": ""
+  },
+  {
+    "id": "200b2880-d922-4dce-a84d-19a110a6c889",
+    "type": "cart_add",
+    "at": "2026-09-26T20:27:53.571Z",
+    "session": "a8I3ceqaC_na6Ux_kqP5Vip4WEl_d1t8",
+    "productId": "jiggler-mini",
+    "name": "",
+    "mobile": "",
+    "orderId": "",
+    "reason": ""
   }
 ]
