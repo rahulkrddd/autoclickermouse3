@@ -75,5 +75,14 @@
     "mobile": "",
     "orderId": "",
     "reason": ""
+  },
+  {
+    "id": "a3334d1a-d227-4a94-8c4b-16ed4f87ce8f",
+    "type": "checkout_started",
+    "at": "2026-09-26T20:28:37.943Z",
+    "session": "a8I3ceqaC_na6Ux_kqP5Vip4WEl_d1t8",
+    "name": "Saisanthosh S",
+    "mobile": "7019826978",
+    "orderId": "order_TgnV3loVX2uuT7"
   }
 ]
