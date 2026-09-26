@@ -1,0 +1,153 @@
+[
+  {
+    "id": "acm-pro",
+    "slug": "auto-clicker-mouse-pro",
+    "name": "Auto Clicker Mouse Pro",
+    "category": "Automation",
+    "price": 499,
+    "oldPrice": 999,
+    "stock": 18,
+    "badge": "Bestseller",
+    "image": "/images/product.svg",
+    "gallery": [
+      "/images/product.svg"
+    ],
+    "description": "Plug-and-play automatic clicking device for personal productivity and testing.",
+    "features": [
+      "No software installation",
+      "USB plug and play",
+      "Compact design",
+      "One-month review warranty"
+    ],
+    "specs": {
+      "Connection": "USB",
+      "Compatibility": "Windows, macOS, Android OTG",
+      "Warranty": "1 month after feedback"
+    }
+  },
+  {
+    "id": "jiggler-mini",
+    "slug": "usb-mouse-jiggler-mini",
+    "name": "USB Mouse Jiggler Mini",
+    "category": "Productivity",
+    "price": 699,
+    "oldPrice": 1299,
+    "stock": 12,
+    "badge": "New",
+    "image": "/images/product.svg",
+    "gallery": [
+      "/images/product.svg"
+    ],
+    "description": "Compact activity device for lawful personal use.",
+    "features": [
+      "Driver-free",
+      "Portable",
+      "Low power"
+    ],
+    "specs": {
+      "Connection": "USB-A",
+      "Mode": "Automatic",
+      "Colour": "Black"
+    }
+  },
+  {
+    "id": "gaming-mouse",
+    "slug": "rgb-gaming-mouse",
+    "name": "RGB Gaming Mouse",
+    "category": "Gaming",
+    "price": 999,
+    "oldPrice": 1499,
+    "stock": 9,
+    "badge": "Popular",
+    "image": "/images/product.svg",
+    "gallery": [
+      "/images/product.svg"
+    ],
+    "description": "Ergonomic gaming mouse with adjustable DPI and RGB lighting.",
+    "features": [
+      "Adjustable DPI",
+      "RGB lighting",
+      "Ergonomic grip"
+    ],
+    "specs": {
+      "DPI": "Adjustable",
+      "Buttons": "6",
+      "Connection": "USB"
+    }
+  },
+  {
+    "id": "rgb-pad",
+    "slug": "xl-rgb-mouse-pad",
+    "name": "XL RGB Mouse Pad",
+    "category": "Accessories",
+    "price": 399,
+    "oldPrice": 699,
+    "stock": 22,
+    "badge": "Deal",
+    "image": "/images/product.svg",
+    "gallery": [
+      "/images/product.svg"
+    ],
+    "description": "Large smooth desk surface with edge lighting.",
+    "features": [
+      "XL surface",
+      "RGB edge",
+      "Non-slip base"
+    ],
+    "specs": {
+      "Size": "XL",
+      "Power": "USB",
+      "Surface": "Micro-textured"
+    }
+  },
+  {
+    "id": "usb-hub",
+    "slug": "seven-in-one-usb-hub",
+    "name": "7-in-1 USB Hub",
+    "category": "Accessories",
+    "price": 1199,
+    "oldPrice": 1899,
+    "stock": 7,
+    "badge": "Premium",
+    "image": "/images/product.svg",
+    "gallery": [
+      "/images/product.svg"
+    ],
+    "description": "Multi-port hub for a cleaner modern workstation.",
+    "features": [
+      "7 ports",
+      "Compact aluminium body",
+      "Fast transfer"
+    ],
+    "specs": {
+      "Ports": "7",
+      "Interface": "USB 3.0",
+      "Body": "Aluminium"
+    }
+  },
+  {
+    "id": "keyboard",
+    "slug": "compact-wireless-keyboard",
+    "name": "Compact Wireless Keyboard",
+    "category": "Productivity",
+    "price": 1499,
+    "oldPrice": 2199,
+    "stock": 11,
+    "badge": "Featured",
+    "image": "/images/product.svg",
+    "gallery": [
+      "/images/product.svg"
+    ],
+    "description": "Slim wireless keyboard for desk and travel.",
+    "features": [
+      "Compact layout",
+      "Wireless",
+      "Quiet keys"
+    ],
+    "specs": {
+      "Connection": "2.4 GHz",
+      "Layout": "Compact",
+      "Battery": "Replaceable"
+    }
+  }
+]
