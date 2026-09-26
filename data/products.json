@@ -55,25 +55,17 @@
     "slug": "rgb-gaming-mouse",
     "name": "RGB Gaming Mouse",
     "category": "Gaming",
-    "price": 999,
+    "price": 10,
     "oldPrice": 1499,
-    "stock": 9,
+    "stock": 0,
     "badge": "Popular",
     "image": "/images/product.svg",
+    "description": "Ergonomic gaming mouse with adjustable DPI and RGB lighting.",
     "gallery": [
       "/images/product.svg"
     ],
-    "description": "Ergonomic gaming mouse with adjustable DPI and RGB lighting.",
-    "features": [
-      "Adjustable DPI",
-      "RGB lighting",
-      "Ergonomic grip"
-    ],
-    "specs": {
-      "DPI": "Adjustable",
-      "Buttons": "6",
-      "Connection": "USB"
-    }
+    "features": [],
+    "specs": {}
   },
   {
     "id": "rgb-pad",
