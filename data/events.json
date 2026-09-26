@@ -108,5 +108,16 @@
     "mobile": "",
     "orderId": "",
     "reason": ""
+  },
+  {
+    "id": "ed2f614b-b264-4ed8-9dd7-eaf754d806c7",
+    "type": "cart_add",
+    "at": "2026-09-26T12:23:54.618Z",
+    "session": "ntJQSyFMi98hKPkFBWWus_EwydeiF3ta",
+    "productId": "rgb-pad",
+    "name": "",
+    "mobile": "",
+    "orderId": "",
+    "reason": ""
   }
 ]
