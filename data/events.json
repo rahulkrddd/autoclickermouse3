@@ -205,5 +205,16 @@
     "mobile": "",
     "orderId": "",
     "reason": ""
+  },
+  {
+    "id": "d6245eed-386f-4f68-8fb9-30178b8fdd4c",
+    "type": "product_view",
+    "at": "2026-09-26T17:04:07.456Z",
+    "session": "1XkSOGjMBqphFy-jyRxodmS1Svss6KJ3",
+    "productId": "keyboard",
+    "name": "",
+    "mobile": "",
+    "orderId": "",
+    "reason": ""
   }
 ]
