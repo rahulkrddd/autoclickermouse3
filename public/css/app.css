@@ -294,3 +294,257 @@ html,body{max-width:100%;overflow-x:hidden}.nav{min-height:72px}.navlinks{margin
 }
 
 
+/* ==========================================
+   PREMIUM REVIEW PAGE
+========================================== */
+
+/* Main Heading */
+
+body:has(#reviews) h1{
+    font-size:clamp(2rem,4vw,3.5rem);
+    margin-bottom:30px;
+    line-height:1.1;
+}
+
+/* Review Grid */
+
+#reviews{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(380px,1fr));
+    gap:24px;
+    margin-bottom:30px;
+}
+
+/* Review Card */
+
+.review{
+    background:#fff;
+    border-radius:24px;
+    padding:28px;
+
+    border:1px solid #ececec;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,.06),
+        0 2px 8px rgba(0,0,0,.04);
+
+    transition:.3s ease;
+
+    min-height:420px;
+}
+
+.review:hover{
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.12);
+}
+
+.review h2{
+    font-size:1.9rem;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+
+.review .muted{
+    color:#6b7280;
+    margin-bottom:18px;
+    font-size:1rem;
+}
+
+/* Ratings */
+
+.ratingline{
+    display:grid;
+    grid-template-columns:140px 1fr;
+    align-items:center;
+    gap:14px;
+    margin:14px 0;
+}
+
+.ratingline b{
+    font-size:1.05rem;
+}
+
+.stars{
+    font-size:24px;
+    color:#ff9900;
+}
+
+/* Review text */
+
+.review > p:last-of-type{
+    margin-top:20px;
+    line-height:1.8;
+    font-size:1rem;
+}
+
+/* Details */
+
+.review details{
+    margin-top:24px;
+    border-top:1px solid #eee;
+    padding-top:16px;
+}
+
+.review summary{
+    cursor:pointer;
+    font-weight:800;
+    font-size:1rem;
+}
+
+/* Pagination Bar */
+
+body:has(#reviews) .toolbar{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:24px;
+
+    margin-top:25px;
+}
+
+#prev,
+#next{
+
+    min-width:160px;
+    height:54px;
+
+    font-size:1rem;
+    font-weight:800;
+}
+
+#page{
+    font-size:1.2rem;
+    font-weight:900;
+    white-space:nowrap;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:700px){
+
+    /* Premium Mobile Heading */
+
+    body:has(#reviews) h1{
+        font-size:1.55rem;
+        font-weight:900;
+        line-height:1.15;
+        margin:0 0 14px;
+        letter-spacing:-0.4px;
+        max-width:none;
+    }
+
+    /* Optional subtitle */
+
+    .review-subtitle{
+        color:#64748b;
+        font-size:.9rem;
+        margin:0 0 18px;
+    }
+
+    /* Review Grid */
+
+    #reviews{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:14px;
+    }
+
+    /* Premium Review Card */
+
+    .review{
+        background:#ffffff;
+        border:1px solid #ececec;
+        border-radius:22px;
+        padding:16px;
+        min-height:auto;
+
+        box-shadow:
+            0 8px 24px rgba(0,0,0,.06);
+    }
+
+    .review h2{
+        font-size:1.1rem;
+        line-height:1.35;
+        margin-bottom:8px;
+    }
+
+    .review .muted{
+        font-size:.82rem;
+        color:#667085;
+        margin-bottom:12px;
+    }
+
+    /* Ratings */
+
+    .ratingline{
+        display:grid;
+        grid-template-columns:85px 1fr;
+        gap:8px;
+        margin:8px 0;
+    }
+
+    .ratingline b{
+        font-size:.9rem;
+    }
+
+    .stars{
+        font-size:17px;
+    }
+
+    /* Review Message */
+
+    .review > p:last-of-type{
+        background:#f8fafc;
+        border-left:4px solid #ff9900;
+        padding:10px 12px;
+        border-radius:10px;
+        margin-top:14px;
+        font-size:.92rem;
+        line-height:1.5;
+    }
+
+    /* More Details */
+
+    .review details{
+        margin-top:14px;
+        padding-top:12px;
+    }
+
+    .review summary{
+        font-size:.95rem;
+        font-weight:800;
+    }
+
+    /* Pagination */
+
+    body:has(#reviews) .toolbar{
+        display:grid;
+        grid-template-columns:100px 1fr 100px;
+        gap:8px;
+        align-items:center;
+        margin-top:14px;
+    }
+
+    #prev,
+    #next{
+        min-width:100px;
+        height:40px;
+        font-size:.85rem;
+        font-weight:800;
+    }
+
+    #page{
+        text-align:center;
+        font-size:.8rem;
+        font-weight:900;
+        color:#64748b;
+        white-space:nowrap;
+    }
+}
+
