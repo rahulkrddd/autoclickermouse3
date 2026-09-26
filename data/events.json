@@ -128,5 +128,16 @@
     "name": "Saisanthosh S",
     "mobile": "7019826978",
     "orderId": "order_TgfFVTZwLM5xsj"
+  },
+  {
+    "id": "97a3249b-3ad1-4147-a676-caefa61cb93b",
+    "type": "product_view",
+    "at": "2026-09-26T12:30:19.261Z",
+    "session": "6Dyp30qfqO9hNjW4GeNxibDNDHVmDQU1",
+    "productId": "rgb-pad",
+    "name": "",
+    "mobile": "",
+    "orderId": "",
+    "reason": ""
   }
 ]
