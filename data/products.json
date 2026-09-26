@@ -6,24 +6,15 @@
     "category": "Automation",
     "price": 499,
     "oldPrice": 999,
-    "stock": 18,
+    "stock": 0,
     "badge": "Bestseller",
     "image": "/images/product.svg",
+    "description": "Plug-and-play automatic clicking device for personal productivity and testing.",
     "gallery": [
       "/images/product.svg"
     ],
-    "description": "Plug-and-play automatic clicking device for personal productivity and testing.",
-    "features": [
-      "No software installation",
-      "USB plug and play",
-      "Compact design",
-      "One-month review warranty"
-    ],
-    "specs": {
-      "Connection": "USB",
-      "Compatibility": "Windows, macOS, Android OTG",
-      "Warranty": "1 month after feedback"
-    }
+    "features": [],
+    "specs": {}
   },
   {
     "id": "jiggler-mini",
