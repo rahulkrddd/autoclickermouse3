@@ -502,5 +502,16 @@
     "mobile": "",
     "orderId": "",
     "reason": ""
+  },
+  {
+    "id": "8f6eb3b7-a960-450f-a436-632205122900",
+    "type": "wishlist_add",
+    "at": "2026-10-01T21:20:40.977Z",
+    "session": "ATt1SjTgMkxpU5EaioGVUg8VAaBtpO6B",
+    "productId": "acm-pro",
+    "name": "",
+    "mobile": "",
+    "orderId": "",
+    "reason": ""
   }
 ]
