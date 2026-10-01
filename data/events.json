@@ -458,5 +458,16 @@
     "mobile": "",
     "orderId": "",
     "reason": ""
+  },
+  {
+    "id": "cefc4635-1b67-4cc3-bb38-9b6fb11fae57",
+    "type": "wishlist_add",
+    "at": "2026-10-01T21:20:23.937Z",
+    "session": "PbWJEha-KKUENBDVOSuFGDfjRaSTd_L0",
+    "productId": "jiggler-mini",
+    "name": "",
+    "mobile": "",
+    "orderId": "",
+    "reason": ""
   }
 ]
