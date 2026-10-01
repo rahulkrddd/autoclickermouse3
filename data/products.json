@@ -140,22 +140,5 @@
       "Layout": "Compact",
       "Battery": "Replaceable"
     }
-  },
-  {
-    "id": "acm-pro12",
-    "slug": "Slugvv",
-    "name": "Auto Clicker Mouse Pro 123",
-    "category": "Electronics",
-    "price": 499,
-    "oldPrice": 500,
-    "stock": 1,
-    "badge": "NA",
-    "image": "Aaa",
-    "description": "Plug-and-play automatic clicking device for personal productivity and testing.",
-    "gallery": [
-      "Aaa"
-    ],
-    "features": [],
-    "specs": {}
   }
 ]
