@@ -482,10 +482,10 @@
     "reason": ""
   },
   {
-    "id": "5677a81d-9230-4b22-895a-530d56cfdc99",
-    "type": "wishlist_add",
-    "at": "2026-10-01T21:20:27.320Z",
-    "session": "YB3bf3MrMDvc9Zi0ENbyuWASky2AA7Pw",
+    "id": "9844f020-9baf-490a-9f66-a682e84b5a41",
+    "type": "wishlist_remove",
+    "at": "2026-10-01T21:20:28.299Z",
+    "session": "6q9juEqm4GwQhwMlExQphDBIc6wWOCeV",
     "productId": "acm-pro",
     "name": "",
     "mobile": "",
